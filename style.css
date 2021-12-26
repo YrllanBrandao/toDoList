@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#container{
+  background: #6166B3;
+  min-height:100vh;
+  width:100vw;
+}
+header{
+  background:#544179;
+  height:100px;
+  width:100vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#taskArea{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#taskArea input{
+  outline:none;
+  padding:10px;
+  border-radius: 4px;
+  border:1px solid #42445A;
+  margin-right: 10px;
+}
+
+#taskArea button{
+  background: url('https://api.iconify.design/bi/plus-square-fill.svg?color=%236166b3&width=32') no-repeat center center / contain;
+   border:none;
+   width:32px;
+   height:32px;
+   
+}
+
+
+#listaTarefa{
+  width:80vw;
+  min-height:80vh;
+  background:#39429D;
+  margin: 20px auto 0;
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  padding:10px;
+  
+}
+
+.tarefa{
+  position: relative;
+  min-height:40px;
+  width:100%;
+  background: #32C1CD;
+  display:flex;
+  align-items: center;
+  padding:10px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.trashButton{
+  background: url('https://api.iconify.design/bx/bxs-trash-alt.svg?color=%239145B6&width=32') no-repeat center center / contain;
+  width:32px;
+  height:32px;
+  border:none;
+}
